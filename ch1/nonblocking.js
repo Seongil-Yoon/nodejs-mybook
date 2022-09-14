@@ -1,3 +1,4 @@
+// non-blocking/Sync
 function longRunningTask() {
   // 오래 걸리는 작업
   console.log('작업 끝');
