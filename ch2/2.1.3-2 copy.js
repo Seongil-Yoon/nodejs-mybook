@@ -1,3 +1,5 @@
+const sayNode = () => console.log("Node");
+const es = 'ES';
 const newObject = {
   sayJS() {
     console.log('JS');

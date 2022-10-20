@@ -5,7 +5,9 @@ function findAndSaveUser(Users) {
       return user.save();
     })
     .then((user) => {
-      return Users.findOne({ gender: 'm' });
+      return Users.findOne({
+        gender: 'm'
+      });
     })
     .then((user) => {
       // 생략
@@ -14,3 +16,4 @@ function findAndSaveUser(Users) {
       console.error(err);
     });
 }
+

@@ -8,5 +8,10 @@ var candyMachine = {
     return this.status.count;
   },
 };
-var getCandy = candyMachine.getCandy;
+// var getCandy = candyMachine.getCandy;
+var getCandy = candyMachine.getCandy();
 var count = candyMachine.status.count;
+
+// console.log(candyMachine.getCandy());
+// console.log(getCandy);
+console.log(count);
